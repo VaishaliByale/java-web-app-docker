@@ -2,7 +2,7 @@ node
 {
        def buildNumber = BUILD_NUMBER
             stage("Git CheckOut"){
-            git url: 'https://github.com/VaishaliByale/java-web-app-docker.git',branch: 'master'
+            git url: 'https://github.com/VaishaliByale/java-web-app-docker.git' ,branch: 'master'
    }
     
 }
