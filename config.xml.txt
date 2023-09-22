@@ -1,0 +1,16 @@
+<globalNodeProperties>
+    <hudson.slaves.EnvironmentVariablesNodeProperty>
+      <envVars serialization="custom">
+        <unserializable-parents/>
+        <tree-map>
+          <default>
+            <comparator class="java.lang.String$CaseInsensitiveComparator"/>
+          </default>
+          <int>2</int> <!-- This number indicates how many key/value pairs will follow it -->
+          <string></string>
+          <string></string>
+          ...
+        </tree-map>
+      </envVars>
+    </hudson.slaves.EnvironmentVariablesNodeProperty>
+  </globalNodeProperties>
