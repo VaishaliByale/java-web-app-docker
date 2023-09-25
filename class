@@ -1,0 +1,11 @@
+class Test {
+  def x
+  public Test() {
+    setX()
+  }
+  private void setX() {
+    this.x = 1;
+  }
+}
+def x = new Test().x
+echo "${x}"
