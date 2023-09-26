@@ -1,0 +1,9 @@
+Thread.start 
+        {
+
+                for (jobb in jobList) 
+                {
+                 echo "${jobb}"
+                }
+
+        }
